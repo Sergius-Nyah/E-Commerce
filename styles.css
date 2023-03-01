@@ -1,12 +1,71 @@
+.body{
+    font-family: "Montserrat";font-size: 22px;
+}
+
 #title{
     background-color: #ff4c68;
 }
-.row h1{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+h1{
+    font-family: 'Montserrat-Black';
     line-height: 1.5;
     font-size: 3rem;
+    color: whitesmoke;
+    font-weight: bold;
   }
 .container-fluid{
     padding:3% 15%;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+    padding-right: 1rem;
+}
+/* Navbar-brand */
+.navbar-brand{
+font-family: "Ubuntu";
+font-size: 2rem;
+font-weight: bold;
+}
+.nav-item{
+    padding: 0px 18px; 
+}
+.nav-link{
+    font-family: 'Montserrat-Light';
+    font-size: 1.2rem;
+} 
+/* Download-button */
+
+.download-button{
+    margin:3% 5% 3% 0% ; 
+}
+/* Tittle Image */
+
+.tittle-image{
+    width: 60%;
+    rotate:calc(25deg);
+}
+.h3{
+    font-family: 'Montserrat-Bold';
+}
+p{
+    padding: 0% 7%;
+    color: grey;
+}
+/* Features */
+#features{
+    padding: 4% 15%; 
+}
+.feature-box{
+    padding: 2.5%;
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+}
+.fa-solid{
+    color:rgb(245, 105, 152);
+    margin-bottom: 1rem;
+    
+}
+.fa-solid:hover{
+    color: #ff4c68;
 }
 
